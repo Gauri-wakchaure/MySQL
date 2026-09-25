@@ -9,4 +9,4 @@ Difference Truncate and Drop
   not only data.
  */
 
-Truncate table Student;s
+Truncate table Student;
