@@ -1,4 +1,6 @@
-/* Where Clause */
+/* Group By Clause 
+- It is use with Aggregate Functions
+*/
 
 create table student(
     rollno int primary key, 
@@ -25,4 +27,3 @@ insert into student values
 select * from student;
 
 select city, count(rollno) from student Group By city;
-
