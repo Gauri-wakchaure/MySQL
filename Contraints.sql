@@ -1,4 +1,7 @@
-/*Contraint means define columns detail */
+/*Contraint means define columns detail
+Contraints in following table:
+1. Primary key: Unique key
+2. Not Null: This fiels not null must have to define */
 
 create table Student(
     rollno int primary key, 
