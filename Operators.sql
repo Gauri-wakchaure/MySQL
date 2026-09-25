@@ -32,4 +32,8 @@ sets an upper limit of data
 - To sort in ascending or descending order
 - ASC and DESC
 
+- Group By Clause:
+- Group values that have same values into summary rows
+- It collects data from multiple record and groups the result
+  by one or more column
 */
