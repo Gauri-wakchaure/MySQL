@@ -6,3 +6,9 @@ create table Student(
     id int primary key, 
     name varchar(50), 
     age int not null);
+
+insert into student values
+(101, "Gauri", 22);
+
+insert into student values
+(102, "Priya", 23);
