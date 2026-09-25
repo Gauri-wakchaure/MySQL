@@ -19,6 +19,9 @@
 - Returns all records when there is a match in either
   left or right table.
 - Use UNION for this.
+
+5. Self join
+- It is a regular join but the table is joined with itself.
  */
 
 /* Inner Join */
@@ -43,4 +46,9 @@ on student.id = course.id
 UNION
 Select * from student
 Right join course
+on student.id = course.id;
+
+/* Self Join */
+Select * from student
+Inner join course
 on student.id = course.id;
